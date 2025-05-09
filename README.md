@@ -8,13 +8,21 @@ This project demonstrates how to classify and retrieve similar images using a ne
 
 ## 📊 Dataset Info
 
-The [Caltech101](http://www.vision.caltech.edu/Image_Datasets/Caltech101/) dataset consists of 101 object categories plus one background clutter category. There are roughly **40 to 800 images per class**, including examples such as:
+The [Caltech101](h[ttp://www.vision.caltech.edu/Image_Datasets/Caltech101/](https://www.kaggle.com/datasets/imbikramsaha/caltech-101) dataset consists of 101 object categories plus one background clutter category. There are roughly **40 to 800 images per class**, including examples such as:
 
 - Faces
 - Airplanes
 - Beavers
 - Mandolins  
 …and many more.
+
+## Evaluation + Conclusion:
+* Achieved a top-5 accuracy of 92.4% on the validation set using a fine-tuned ResNet-50.
+* Feature extraction and retrieval using FAISS was efficient and accurate, with most top-5 retrievals belonging to the correct class.
+* Streamlit app demonstrates real-time image similarity search using precomputed features.
+* Potential future improvements:
+    * Use a more compact model for faster inference.
+    * Add support for user-uploaded images.
 
 
 ## 🚀 Streamlit App
@@ -35,11 +43,3 @@ Or run the app inline like this:
 
 KMP_DUPLICATE_LIB_OK=TRUE streamlit run app.py --server.fileWatcherType none
 
-
-## Evaluation + Conclusion:
-* Achieved a top-5 accuracy of 92.4% on the validation set using a fine-tuned ResNet-50.
-* Feature extraction and retrieval using FAISS was efficient and accurate, with most top-5 retrievals belonging to the correct class.
-* Streamlit app demonstrates real-time image similarity search using precomputed features.
-* Potential future improvements:
-    * Use a more compact model for faster inference.
-    * Add support for user-uploaded images.
