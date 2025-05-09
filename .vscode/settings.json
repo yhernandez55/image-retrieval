@@ -1,0 +1,10 @@
+{
+    "editor.experimentalGpuAcceleration": "on",
+    "terminal.integrated.gpuAcceleration": "on",
+    "git.allowForcePush": true,
+    "git.fetchOnPull": true,
+    "git.pullBeforeCheckout": true,
+    "terminal.integrated.enableImages": true,
+    "git.showPushSuccessNotification": true,
+    "git.replaceTagsWhenPull": true
+}
