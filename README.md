@@ -30,6 +30,10 @@ The [Caltech101](h[ttp://www.vision.caltech.edu/Image_Datasets/Caltech101/](http
 To run the interactive image retrieval demo:
 
 ```bash
+Before running the app, make sure Docker is up and running (if you’re using Docker for your environment). Then, run the following to precompute features:
+./utils/precompute.sh
+
+After precomputing, start the app with:
 streamlit run app.py
 If you see this error:
 
