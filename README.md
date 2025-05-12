@@ -28,7 +28,7 @@ The [Caltech101](http://www.vision.caltech.edu/Image_Datasets/Caltech101/](https
 ## 🚀 Streamlit App
 ### 🔗 Live Demo
 
-Try the app here: [Image Retrieval Streamlit App]()
+Try the app here: [Image Retrieval Streamlit App](https://image-retrieval-jwdpxketfpngmusvgxw8rg.streamlit.app/)
 
 ![Demo Screenshot](web-app.png)
 
