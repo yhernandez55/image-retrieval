@@ -26,6 +26,13 @@ The [Caltech101](http://www.vision.caltech.edu/Image_Datasets/Caltech101/](https
 
 
 ## 🚀 Streamlit App
+### 🔗 Live Demo
+
+Try the app here: [Image Retrieval Streamlit App]()
+
+![Demo Screenshot](<img width="1474" alt="web-app" src="https://github.com/user-attachments/assets/5ac6d818-edab-49a9-8dc7-5a6586a02bb3" />
+)
+
 
 To run the interactive image retrieval demo:
 
