@@ -8,7 +8,7 @@ This project demonstrates how to classify and retrieve similar images using a ne
 
 ## 📊 Dataset Info
 
-The [Caltech101](h[ttp://www.vision.caltech.edu/Image_Datasets/Caltech101/](https://www.kaggle.com/datasets/imbikramsaha/caltech-101) dataset consists of 101 object categories plus one background clutter category. There are roughly **40 to 800 images per class**, including examples such as:
+The [Caltech101](http://www.vision.caltech.edu/Image_Datasets/Caltech101/](https://www.kaggle.com/datasets/imbikramsaha/caltech-101) dataset consists of 101 object categories plus one background clutter category. There are roughly **40 to 800 images per class**, including examples such as:
 
 - Faces
 - Airplanes
